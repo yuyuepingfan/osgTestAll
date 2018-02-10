@@ -31,8 +31,8 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
-    <IncludePath>C:\Program Files\OsgLib\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Program Files\OsgLib\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>./include;$(IncludePath)</IncludePath>
+    <LibraryPath>./lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
