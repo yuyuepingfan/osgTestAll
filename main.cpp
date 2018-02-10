@@ -18,6 +18,6 @@ int main(int argc, char *argv[])
 	osgViewer::Viewer viewer;
 	osg::Node * node = new osg::Node;
 	node = osgDB::readNodeFile("C:/Users/yuyue/Downloads/OpenSceneGraph-Data-3.4.0/OpenSceneGraph-Data/cow.osg");
-	//viewer.setSceneData(node);
+	viewer.setSceneData(node);
 	return viewer.run();
 }
